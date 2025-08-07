@@ -1,0 +1,4286 @@
+{
+  "Begegnungen": [
+    {
+      "Id": 1,
+      "Mat": 1,
+      "Red": {
+        "Id": 86,
+        "Org": "SAS"
+      },
+      "Blue": {
+        "Id": 68,
+        "Org": "BAY"
+      }
+    },
+    {
+      "Id": 2,
+      "Mat": 2,
+      "Red": {
+        "Id": 107,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 29,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 43,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 3,
+      "Mat": 1,
+      "Red": {
+        "Id": 2,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 117,
+        "Org": "WTB"
+      }
+    },
+    {
+      "Id": 99,
+      "Mat": 2,
+      "Red": {
+        "Id": 86,
+        "Org": "SAS"
+      },
+      "Blue": {
+        "Id": 107,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 100,
+      "Mat": 1,
+      "Red": {
+        "Id": 68,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 29,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 101,
+      "Mat": 2,
+      "Red": {
+        "Id": 42,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 2,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 159,
+      "Mat": 1,
+      "Red": {
+        "Id": 117,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 42,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 4,
+      "Mat": 2,
+      "Red": {
+        "Id": 36,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 69,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 5,
+      "Mat": 1,
+      "Red": {
+        "Id": 38,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 5,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 6,
+      "Mat": 2,
+      "Red": {
+        "Id": 70,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 58,
+        "Org": "MEV"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 7,
+      "Mat": 1,
+      "Red": {
+        "Id": 71,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 18,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 8,
+      "Mat": 2,
+      "Red": {
+        "Id": 17,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 104,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 9,
+      "Mat": 1,
+      "Red": {
+        "Id": 87,
+        "Org": "HAM"
+      },
+      "Blue": {
+        "Id": 44,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 78,
+      "Mat": 1,
+      "Red": {
+        "Id": 4,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 36,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 79,
+      "Mat": 2,
+      "Red": {
+        "Id": 69,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 38,
+        "Org": "BLN"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 80,
+      "Mat": 1,
+      "Red": {
+        "Id": 5,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 70,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 81,
+      "Mat": 2,
+      "Red": {
+        "Id": 71,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 17,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 82,
+      "Mat": 1,
+      "Red": {
+        "Id": 18,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 87,
+        "Org": "HAM"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 83,
+      "Mat": 2,
+      "Red": {
+        "Id": 104,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 44,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 10,
+      "Mat": 1,
+      "Red": {
+        "Id": 20,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 43,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 11,
+      "Mat": 2,
+      "Red": {
+        "Id": 72,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 28,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 12,
+      "Mat": 1,
+      "Red": {
+        "Id": 105,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 95,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 13,
+      "Mat": 1,
+      "Red": {
+        "Id": 82,
+        "Org": "PFZ"
+      },
+      "Blue": {
+        "Id": 1,
+        "Org": "RHH"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 }
+    },
+    {
+      "Id": 14,
+      "Mat": 2,
+      "Red": {
+        "Id": 19,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 6,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 90,
+      "Mat": 1,
+      "Red": {
+        "Id": 20,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 72,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 91,
+      "Mat": 2,
+      "Red": {
+        "Id": 43,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 105,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 92,
+      "Mat": 2,
+      "Red": {
+        "Id": 28,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 95,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 93,
+      "Mat": 2,
+      "Red": {
+        "Id": 3,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 82,
+        "Org": "PFZ"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 94,
+      "Mat": 1,
+      "Red": {
+        "Id": 1,
+        "Org": "RHH"
+      },
+      "Blue": {
+        "Id": 19,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 47 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 15,
+      "Mat": 1,
+      "Red": {
+        "Id": 34,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 41,
+        "Org": "BLN"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 16,
+      "Mat": 2,
+      "Red": {
+        "Id": 8,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 96,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": { "Id": 47 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 17,
+      "Mat": 2,
+      "Red": {
+        "Id": 65,
+        "Org": "BRB"
+      },
+      "Blue": {
+        "Id": 91,
+        "Org": "SAH"
+      },
+      "Referee": { "Id": 47 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 18,
+      "Mat": 1,
+      "Red": {
+        "Id": 109,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 7,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 19,
+      "Mat": 2,
+      "Red": {
+        "Id": 46,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 73,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 40 }
+    },
+    {
+      "Id": 20,
+      "Mat": 1,
+      "Red": {
+        "Id": 21,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 101,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 84,
+      "Mat": 2,
+      "Red": {
+        "Id": 92,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 34,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 85,
+      "Mat": 1,
+      "Red": {
+        "Id": 41,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 8,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 86,
+      "Mat": 2,
+      "Red": {
+        "Id": 96,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 65,
+        "Org": "BRB"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 87,
+      "Mat": 2,
+      "Red": {
+        "Id": 109,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 46,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 88,
+      "Mat": 1,
+      "Red": {
+        "Id": 7,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 21,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": { "Id": 51 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 89,
+      "Mat": 2,
+      "Red": {
+        "Id": 73,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 101,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 43,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 21,
+      "Mat": 1,
+      "Red": {
+        "Id": 48,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 115,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 22,
+      "Mat": 2,
+      "Red": {
+        "Id": 94,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 47,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      }
+    },
+    {
+      "Id": 23,
+      "Mat": 1,
+      "Red": {
+        "Id": 40,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 10,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 24,
+      "Mat": 2,
+      "Red": {
+        "Id": 74,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 98,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 47 },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 25,
+      "Mat": 1,
+      "Red": {
+        "Id": 49,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 113,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 26,
+      "Mat": 2,
+      "Red": {
+        "Id": 9,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 11,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 27,
+      "Mat": 1,
+      "Red": {
+        "Id": 93,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 85,
+        "Org": "SAS"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 28,
+      "Mat": 2,
+      "Red": {
+        "Id": 45,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 112,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 29,
+      "Mat": 1,
+      "Red": {
+        "Id": 97,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 108,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 53,
+      "Mat": 1,
+      "Red": {
+        "Id": 48,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 94,
+        "Org": "SAH"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 54,
+      "Mat": 2,
+      "Red": {
+        "Id": 115,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 47,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 55,
+      "Mat": 2,
+      "Red": {
+        "Id": 40,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 74,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 56,
+      "Mat": 1,
+      "Red": {
+        "Id": 10,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 49,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 57,
+      "Mat": 1,
+      "Red": {
+        "Id": 98,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 113,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 58,
+      "Mat": 2,
+      "Red": {
+        "Id": 75,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 9,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 59,
+      "Mat": 2,
+      "Red": {
+        "Id": 11,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 93,
+        "Org": "SAH"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 60,
+      "Mat": 1,
+      "Red": {
+        "Id": 85,
+        "Org": "SAS"
+      },
+      "Blue": {
+        "Id": 45,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 61,
+      "Mat": 2,
+      "Red": {
+        "Id": 112,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 97,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 43,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 30,
+      "Mat": 2,
+      "Red": {
+        "Id": 66,
+        "Org": "BRB"
+      },
+      "Blue": {
+        "Id": 77,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 31,
+      "Mat": 1,
+      "Red": {
+        "Id": 14,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 76,
+        "Org": "BAY"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 32,
+      "Mat": 2,
+      "Red": {
+        "Id": 51,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 111,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 33,
+      "Mat": 2,
+      "Red": {
+        "Id": 60,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 99,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 34,
+      "Mat": 1,
+      "Red": {
+        "Id": 103,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 12,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 35,
+      "Mat": 1,
+      "Red": {
+        "Id": 31,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 50,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 36,
+      "Mat": 2,
+      "Red": {
+        "Id": 114,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 13,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 37,
+      "Mat": 2,
+      "Red": {
+        "Id": 57,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 35,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": { "Id": 51 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 62,
+      "Mat": 1,
+      "Red": {
+        "Id": 66,
+        "Org": "BRB"
+      },
+      "Blue": {
+        "Id": 14,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 63,
+      "Mat": 1,
+      "Red": {
+        "Id": 77,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 76,
+        "Org": "BAY"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 64,
+      "Mat": 2,
+      "Red": {
+        "Id": 51,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 60,
+        "Org": "MEV"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 65,
+      "Mat": 1,
+      "Red": {
+        "Id": 111,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 99,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 66,
+      "Mat": 2,
+      "Red": {
+        "Id": 103,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 31,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 67,
+      "Mat": 1,
+      "Red": {
+        "Id": 12,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 50,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 68,
+      "Mat": 1,
+      "Red": {
+        "Id": 114,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 57,
+        "Org": "MEV"
+      },
+      "Referee": { "Id": 45 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 69,
+      "Mat": 2,
+      "Red": {
+        "Id": 13,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 35,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 38,
+      "Mat": 1,
+      "Red": {
+        "Id": 33,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 15,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 39,
+      "Mat": 2,
+      "Red": {
+        "Id": 24,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 88,
+        "Org": "HAM"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 40,
+      "Mat": 2,
+      "Red": {
+        "Id": 52,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 63,
+        "Org": "BRB"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 41,
+      "Mat": 2,
+      "Red": {
+        "Id": 53,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 100,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 42,
+      "Mat": 1,
+      "Red": {
+        "Id": 78,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 54,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 43,
+      "Mat": 2,
+      "Red": {
+        "Id": 102,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 32,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 43,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 44,
+      "Mat": 1,
+      "Red": {
+        "Id": 67,
+        "Org": "BRB"
+      },
+      "Blue": {
+        "Id": 23,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 45,
+      "Mat": 2,
+      "Red": {
+        "Id": 22,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 90,
+        "Org": "SAH"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 70,
+      "Mat": 1,
+      "Red": {
+        "Id": 33,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 24,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 45 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 71,
+      "Mat": 2,
+      "Red": {
+        "Id": 15,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 88,
+        "Org": "HAM"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 72,
+      "Mat": 1,
+      "Red": {
+        "Id": 52,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 53,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 73,
+      "Mat": 2,
+      "Red": {
+        "Id": 63,
+        "Org": "BRB"
+      },
+      "Blue": {
+        "Id": 100,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 74,
+      "Mat": 2,
+      "Red": {
+        "Id": 78,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 102,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 75,
+      "Mat": 1,
+      "Red": {
+        "Id": 54,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 32,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 76,
+      "Mat": 2,
+      "Red": {
+        "Id": 67,
+        "Org": "BRB"
+      },
+      "Blue": {
+        "Id": 22,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 77,
+      "Mat": 2,
+      "Red": {
+        "Id": 23,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 90,
+        "Org": "SAH"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 46,
+      "Mat": 1,
+      "Red": {
+        "Id": 25,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 64,
+        "Org": "BRB"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 47,
+      "Mat": 1,
+      "Red": {
+        "Id": 79,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 56,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 48,
+      "Mat": 2,
+      "Red": {
+        "Id": 116,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 37,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 49,
+      "Mat": 1,
+      "Red": {
+        "Id": 16,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 89,
+        "Org": "SWH"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 95,
+      "Mat": 2,
+      "Red": {
+        "Id": 81,
+        "Org": "NDS"
+      },
+      "Blue": {
+        "Id": 25,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 96,
+      "Mat": 1,
+      "Red": {
+        "Id": 64,
+        "Org": "BRB"
+      },
+      "Blue": {
+        "Id": 79,
+        "Org": "BAY"
+      },
+      "Referee": { "Id": 47 },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 97,
+      "Mat": 2,
+      "Red": {
+        "Id": 116,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 16,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 98,
+      "Mat": 1,
+      "Red": {
+        "Id": 37,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 89,
+        "Org": "SWH"
+      },
+      "Referee": { "Id": 47 },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 50,
+      "Mat": 2,
+      "Red": {
+        "Id": 59,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 110,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 51,
+      "Mat": 1,
+      "Red": {
+        "Id": 83,
+        "Org": "PFZ"
+      },
+      "Blue": {
+        "Id": 26,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 52,
+      "Mat": 2,
+      "Red": {
+        "Id": 84,
+        "Org": "SAS"
+      },
+      "Blue": {
+        "Id": 62,
+        "Org": "BRB"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": { "Id": 47 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 102,
+      "Mat": 1,
+      "Red": {
+        "Id": 59,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 83,
+        "Org": "PFZ"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": { "Id": 45 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 103,
+      "Mat": 1,
+      "Red": {
+        "Id": 110,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 84,
+        "Org": "SAS"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": { "Id": 45 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 104,
+      "Mat": 2,
+      "Red": {
+        "Id": 26,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 62,
+        "Org": "BRB"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 138,
+      "Mat": 2,
+      "Red": {
+        "Id": 59,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 26,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 139,
+      "Mat": 1,
+      "Red": {
+        "Id": 110,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 62,
+        "Org": "BRB"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 140,
+      "Mat": 1,
+      "Red": {
+        "Id": 83,
+        "Org": "PFZ"
+      },
+      "Blue": {
+        "Id": 84,
+        "Org": "SAS"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 160,
+      "Mat": 1,
+      "Red": {
+        "Id": 59,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 84,
+        "Org": "SAS"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 161,
+      "Mat": 2,
+      "Red": {
+        "Id": 110,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 26,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 162,
+      "Mat": 1,
+      "Red": {
+        "Id": 83,
+        "Org": "PFZ"
+      },
+      "Blue": {
+        "Id": 62,
+        "Org": "BRB"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": { "Id": 53 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 172,
+      "Mat": 1,
+      "Red": {
+        "Id": 59,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 62,
+        "Org": "BRB"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 173,
+      "Mat": 1,
+      "Red": {
+        "Id": 110,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 83,
+        "Org": "PFZ"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 174,
+      "Mat": 2,
+      "Red": {
+        "Id": 26,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 84,
+        "Org": "SAS"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 105,
+      "Mat": 1,
+      "Red": {
+        "Id": 27,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 39,
+        "Org": "BLN"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 106,
+      "Mat": 2,
+      "Red": {
+        "Id": 80,
+        "Org": "NDS"
+      },
+      "Blue": {
+        "Id": 55,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 163,
+      "Mat": 2,
+      "Red": {
+        "Id": 27,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 80,
+        "Org": "NDS"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 164,
+      "Mat": 1,
+      "Red": {
+        "Id": 39,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 55,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 175,
+      "Mat": 1,
+      "Red": {
+        "Id": 27,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 55,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 176,
+      "Mat": 2,
+      "Red": {
+        "Id": 39,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 80,
+        "Org": "NDS"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 107,
+      "Mat": 2,
+      "Red": {
+        "Id": 115,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 94,
+        "Org": "SAH"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 108,
+      "Mat": 1,
+      "Red": {
+        "Id": 47,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 74,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 109,
+      "Mat": 2,
+      "Red": {
+        "Id": 10,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 98,
+        "Org": "SRL"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 110,
+      "Mat": 1,
+      "Red": {
+        "Id": 108,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 75,
+        "Org": "BAY"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 111,
+      "Mat": 2,
+      "Red": {
+        "Id": 9,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 85,
+        "Org": "SAS"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 112,
+      "Mat": 2,
+      "Red": {
+        "Id": 93,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 45,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 113,
+      "Mat": 1,
+      "Red": {
+        "Id": 77,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 14,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 114,
+      "Mat": 2,
+      "Red": {
+        "Id": 76,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 111,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 115,
+      "Mat": 1,
+      "Red": {
+        "Id": 51,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 99,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 116,
+      "Mat": 1,
+      "Red": {
+        "Id": 12,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 114,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 117,
+      "Mat": 2,
+      "Red": {
+        "Id": 31,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 13,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 118,
+      "Mat": 1,
+      "Red": {
+        "Id": 33,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 52,
+        "Org": "NRW"
+      }
+    },
+    {
+      "Id": 119,
+      "Mat": 2,
+      "Red": {
+        "Id": 88,
+        "Org": "HAM"
+      },
+      "Blue": {
+        "Id": 53,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 120,
+      "Mat": 2,
+      "Red": {
+        "Id": 78,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 32,
+        "Org": "HES"
+      }
+    },
+    {
+      "Id": 121,
+      "Mat": 1,
+      "Red": {
+        "Id": 54,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 90,
+        "Org": "SAH"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 122,
+      "Mat": 2,
+      "Red": {
+        "Id": 23,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 22,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 123,
+      "Mat": 1,
+      "Red": {
+        "Id": 58,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 4,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 124,
+      "Mat": 2,
+      "Red": {
+        "Id": 36,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 38,
+        "Org": "BLN"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 125,
+      "Mat": 2,
+      "Red": {
+        "Id": 18,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 17,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 47 },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": { "Id": 40 }
+    },
+    {
+      "Id": 126,
+      "Mat": 1,
+      "Red": {
+        "Id": 104,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 87,
+        "Org": "HAM"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 127,
+      "Mat": 2,
+      "Red": {
+        "Id": 91,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 92,
+        "Org": "SAH"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 40 }
+    },
+    {
+      "Id": 128,
+      "Mat": 1,
+      "Red": {
+        "Id": 41,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 96,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 129,
+      "Mat": 2,
+      "Red": {
+        "Id": 109,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 21,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 130,
+      "Mat": 2,
+      "Red": {
+        "Id": 7,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 73,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 131,
+      "Mat": 1,
+      "Red": {
+        "Id": 20,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 28,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 48 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 132,
+      "Mat": 2,
+      "Red": {
+        "Id": 72,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 105,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 133,
+      "Mat": 1,
+      "Red": {
+        "Id": 6,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 1,
+        "Org": "RHH"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 134,
+      "Mat": 2,
+      "Red": {
+        "Id": 3,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 19,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 135,
+      "Mat": 1,
+      "Red": {
+        "Id": 56,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 81,
+        "Org": "NDS"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 136,
+      "Mat": 2,
+      "Red": {
+        "Id": 25,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 79,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 137,
+      "Mat": 1,
+      "Red": {
+        "Id": 116,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 89,
+        "Org": "SWH"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 48 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 158,
+      "Mat": 1,
+      "Red": {
+        "Id": 68,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 107,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 141,
+      "Mat": 2,
+      "Red": {
+        "Id": 49,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 115,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 142,
+      "Mat": 2,
+      "Red": {
+        "Id": 10,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 74,
+        "Org": "BAY"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": { "Id": 47 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 143,
+      "Mat": 1,
+      "Red": {
+        "Id": 97,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 9,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 144,
+      "Mat": 2,
+      "Red": {
+        "Id": 75,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 85,
+        "Org": "SAS"
+      },
+      "Referee": { "Id": 47 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 145,
+      "Mat": 1,
+      "Red": {
+        "Id": 77,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 99,
+        "Org": "SRL"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 146,
+      "Mat": 2,
+      "Red": {
+        "Id": 35,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 12,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 147,
+      "Mat": 2,
+      "Red": {
+        "Id": 100,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 33,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 43,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 148,
+      "Mat": 1,
+      "Red": {
+        "Id": 78,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 22,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 149,
+      "Mat": 1,
+      "Red": {
+        "Id": 70,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 36,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 150,
+      "Mat": 2,
+      "Red": {
+        "Id": 58,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 38,
+        "Org": "BLN"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 151,
+      "Mat": 1,
+      "Red": {
+        "Id": 18,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 104,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 152,
+      "Mat": 1,
+      "Red": {
+        "Id": 91,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 41,
+        "Org": "BLN"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 153,
+      "Mat": 2,
+      "Red": {
+        "Id": 92,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 96,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 154,
+      "Mat": 2,
+      "Red": {
+        "Id": 109,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 73,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 155,
+      "Mat": 1,
+      "Red": {
+        "Id": 28,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 105,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 156,
+      "Mat": 1,
+      "Red": {
+        "Id": 3,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 1,
+        "Org": "RHH"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 181,
+      "Mat": 1,
+      "Red": {
+        "Id": 111,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 13,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 178,
+      "Mat": 1,
+      "Red": {
+        "Id": 14,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 114,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 182,
+      "Mat": 2,
+      "Red": {
+        "Id": 53,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 23,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 179,
+      "Mat": 2,
+      "Red": {
+        "Id": 52,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 32,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 157,
+      "Mat": 2,
+      "Red": {
+        "Id": 81,
+        "Org": "NDS"
+      },
+      "Blue": {
+        "Id": 79,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 183,
+      "Mat": 1,
+      "Red": {
+        "Id": 56,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 37,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 180,
+      "Mat": 1,
+      "Red": {
+        "Id": 20,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 6,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": { "Id": 48 },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 177,
+      "Mat": 2,
+      "Red": {
+        "Id": 43,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 82,
+        "Org": "PFZ"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 165,
+      "Mat": 2,
+      "Red": {
+        "Id": 115,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 10,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": { "Id": 51 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 166,
+      "Mat": 1,
+      "Red": {
+        "Id": 45,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 9,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 167,
+      "Mat": 1,
+      "Red": {
+        "Id": 97,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 85,
+        "Org": "SAS"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 168,
+      "Mat": 2,
+      "Red": {
+        "Id": 76,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 99,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 169,
+      "Mat": 2,
+      "Red": {
+        "Id": 31,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 35,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 170,
+      "Mat": 2,
+      "Red": {
+        "Id": 88,
+        "Org": "HAM"
+      },
+      "Blue": {
+        "Id": 100,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 171,
+      "Mat": 1,
+      "Red": {
+        "Id": 90,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 78,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 184,
+      "Mat": 2,
+      "Red": {
+        "Id": 58,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 36,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 47 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 189,
+      "Mat": 1,
+      "Red": {
+        "Id": 70,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 17,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 186,
+      "Mat": 2,
+      "Red": {
+        "Id": 4,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 71,
+        "Org": "BAY"
+      },
+      "Referee": { "Id": 47 },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 185,
+      "Mat": 1,
+      "Red": {
+        "Id": 92,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 41,
+        "Org": "BLN"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 215,
+      "Mat": 1,
+      "Red": {
+        "Id": 28,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 19,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 205,
+      "Mat": 2,
+      "Red": {
+        "Id": 105,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 3,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 197,
+      "Mat": 2,
+      "Red": {
+        "Id": 72,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 1,
+        "Org": "RHH"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 212,
+      "Mat": 1,
+      "Red": {
+        "Id": 25,
+        "Org": "NBD"
+      },
+      "Blue": {
+        "Id": 89,
+        "Org": "SWH"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 210,
+      "Mat": 2,
+      "Red": {
+        "Id": 79,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 116,
+        "Org": "WTB"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 202,
+      "Mat": 1,
+      "Red": {
+        "Id": 81,
+        "Org": "NDS"
+      },
+      "Blue": {
+        "Id": 16,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 211,
+      "Mat": 1,
+      "Red": {
+        "Id": 107,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 42,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 203,
+      "Mat": 2,
+      "Red": {
+        "Id": 29,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 2,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 48 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 195,
+      "Mat": 1,
+      "Red": {
+        "Id": 68,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 117,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 198,
+      "Mat": 1,
+      "Red": {
+        "Id": 96,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 7,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 190,
+      "Mat": 2,
+      "Red": {
+        "Id": 91,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 21,
+        "Org": "NBD"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 40 },
+      "MatChairman": {
+        "Id": 32,
+        "Org": "NBD"
+      }
+    },
+    {
+      "Id": 187,
+      "Mat": 1,
+      "Red": {
+        "Id": 34,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 46,
+        "Org": "NRW"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 188,
+      "Mat": 2,
+      "Red": {
+        "Id": 98,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 75,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 193,
+      "Mat": 1,
+      "Red": {
+        "Id": 74,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 115,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 192,
+      "Mat": 2,
+      "Red": {
+        "Id": 12,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 31,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 191,
+      "Mat": 1,
+      "Red": {
+        "Id": 49,
+        "Org": "NRW"
+      },
+      "Blue": {
+        "Id": 45,
+        "Org": "NRW"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 194,
+      "Mat": 2,
+      "Red": {
+        "Id": 33,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 88,
+        "Org": "HAM"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 51 }
+    },
+    {
+      "Id": 213,
+      "Mat": 1,
+      "Red": {
+        "Id": 38,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 18,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 53 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 204,
+      "Mat": 1,
+      "Red": {
+        "Id": 58,
+        "Org": "MEV"
+      },
+      "Blue": {
+        "Id": 87,
+        "Org": "HAM"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 196,
+      "Mat": 2,
+      "Red": {
+        "Id": 36,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 104,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 39,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 50,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 217,
+      "Mat": 1,
+      "Red": {
+        "Id": 92,
+        "Org": "SAH"
+      },
+      "Blue": {
+        "Id": 73,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 32,
+        "Org": "NBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 206,
+      "Mat": 1,
+      "Red": {
+        "Id": 41,
+        "Org": "BLN"
+      },
+      "Blue": {
+        "Id": 109,
+        "Org": "WTB"
+      },
+      "Referee": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 216,
+      "Mat": 1,
+      "Red": {
+        "Id": 76,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 35,
+        "Org": "HES"
+      },
+      "Referee": { "Id": 40 },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 208,
+      "Mat": 2,
+      "Red": {
+        "Id": 77,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 12,
+        "Org": "SBD"
+      },
+      "Referee": { "Id": 48 },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 56,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 200,
+      "Mat": 1,
+      "Red": {
+        "Id": 99,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 31,
+        "Org": "HES"
+      },
+      "Referee": {
+        "Id": 49,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 218,
+      "Mat": 1,
+      "Red": {
+        "Id": 115,
+        "Org": "WTB"
+      },
+      "Blue": {
+        "Id": 85,
+        "Org": "SAS"
+      },
+      "Referee": { "Id": 51 },
+      "Judge": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "MatChairman": { "Id": 45 }
+    },
+    {
+      "Id": 207,
+      "Mat": 2,
+      "Red": {
+        "Id": 10,
+        "Org": "SBD"
+      },
+      "Blue": {
+        "Id": 9,
+        "Org": "SBD"
+      },
+      "Referee": {
+        "Id": 56,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": { "Id": 48 }
+    },
+    {
+      "Id": 199,
+      "Mat": 2,
+      "Red": {
+        "Id": 74,
+        "Org": "BAY"
+      },
+      "Blue": {
+        "Id": 97,
+        "Org": "SRL"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": { "Id": 52 },
+      "MatChairman": {
+        "Id": 43,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 214,
+      "Mat": 1,
+      "Red": {
+        "Id": 33,
+        "Org": "HES"
+      },
+      "Blue": {
+        "Id": 78,
+        "Org": "BAY"
+      },
+      "Referee": {
+        "Id": 50,
+        "Org": "SBD"
+      },
+      "Judge": {
+        "Id": 42,
+        "Org": "SBD"
+      },
+      "MatChairman": {
+        "Id": 49,
+        "Org": "SBD"
+      }
+    },
+    {
+      "Id": 209,
+      "Mat": 1,
+      "Red": {
+        "Id": 88,
+        "Org": "HAM"
+      },
+      "Blue": {
+        "Id": 90,
+        "Org": "SAH"
+      },
+      "Referee": {
+        "Id": 54,
+        "Org": "WTB"
+      },
+      "Judge": { "Id": 51 },
+      "MatChairman": { "Id": 47 }
+    },
+    {
+      "Id": 201,
+      "Mat": 2,
+      "Red": {
+        "Id": 100,
+        "Org": "SRL"
+      },
+      "Blue": {
+        "Id": 22,
+        "Org": "NBD"
+      },
+      "Referee": { "Id": 52 },
+      "Judge": { "Id": 53 },
+      "MatChairman": {
+        "Id": 39,
+        "Org": "SBD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using KampfrichterZuweisung.Domain
+@using KampfrichterZuweisung.Domain.Logik
+@using EnumsNET
+
+@inject TurnierDatenService TurnierDatenService
+
+<PageTitle>Kampfrichter Simulation</PageTitle>
+
+<h3>Kampfrichter Simulation</h3>
+
+<label>Geschwindigkeit (ms):</label>
+<input type="range" min="0" max="3000" step="100" @bind="@_delay" />
+
+
+<p>Aktuelle Verzögerung: @_delay ms</p>
+
+
+@if (_isInitialized)
+{
+
+    <h3>Turnier auswählen</h3>
+
+    <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <button @onclick="VorherigeDatei" disabled="@(_aktuellerIndex <= 0)">←</button>
+
+        <select value="@_selectedFile" @onchange="OnFileSelected">
+            <option value="">-- bitte wählen --</option>
+            @foreach (var file in _jsonFiles)
+            {
+                <option value="@file.FilePath">
+                    @file.DisplayName
+                </option>
+            }
+        </select>
+
+        <button @onclick="NaechsteDatei" disabled="@(_aktuellerIndex >= _jsonFiles.Count - 1)">→</button>
+    </div>
+
+
+    <button @onclick="@(async () => await Lade_Daten(_selectedFile))" disabled="@string.IsNullOrEmpty(_selectedFile)">Laden</button>
+
+
+    <h1>@_demoDaten.Bezeichnung (TID: @_demoDaten.TId)</h1>
+
+    @if (!string.IsNullOrEmpty(_fehler))
+    {
+        <div class="alert alert-danger" role="alert">
+            @_fehler
+        </div>
+    }
+
+<button @onclick="@(() => StarteSimulation(_delay))">Starte Simulation</button>
+
+<div>
+    <h2>Verteilung Kampfrichter</h2>
+    <table style="border-collapse: collapse;">
+        <tbody>
+        <tr>
+            @foreach (var elem in _zuordnungsLogik.AlleKampfrichter.OrderBy(li => li.Id))
+            {
+                <td style="border: 1px solid #ccc;text-align: center; min-width: 60px">
+                    @($"{elem.Id}: {elem.AnzahlEinsaetze}x")
+                </td>
+            }
+            <td>
+                Sim
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    
+    <table style="border-collapse: collapse;">
+        <tbody>
+        <tr>
+            @foreach (var elem in _zuordnungsLogik.AlleKampfrichter.OrderBy(li => li.Id))
+            {
+                <td style="border: 1px solid #ccc; text-align: center;min-width: 60px">
+                    @($"{elem.Id}: {elem.AnzahlEinsaetze_Real}x")
+                </td>
+            }
+            <td>
+                Real
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div style="display:flex">
+    <div>
+        <h2>Verfügbare Kampfrichter</h2>
+        
+        <div style="display:flex">
+            <div>
+                Verbände: @string.Join(", ", _zuordnungsLogik.AlleKampfrichter.Where(li => li.IstVerfuegbar)
+                              .GroupBy(li => li.Verband).OrderBy(li => li.Key).Select(li => $"{li.Count()}x {(string.IsNullOrEmpty(li.Key) ? "n.d." : li.Key)}"))
+            </div>
+            
+            @if (_zuordnungsLogik.AlleKampfrichter.Any())
+            {
+                <div style="border-left: 2px solid #ccc; margin-left: 5px; padding-left: 5px;">
+                    Einsätze
+
+                    Min: @_zuordnungsLogik.AlleKampfrichter.Min(li => li.AnzahlEinsaetze)
+                    Max: @_zuordnungsLogik.AlleKampfrichter.Max(li => li.AnzahlEinsaetze)
+                </div>
+
+
+                <div style="border-left: 2px solid #ccc; margin-left: 5px; padding-left: 5px;">
+                    Einsätze-Real
+
+                    Min: @_zuordnungsLogik.AlleKampfrichter.Min(li => li.AnzahlEinsaetze_Real)
+                    Max: @_zuordnungsLogik.AlleKampfrichter.Max(li => li.AnzahlEinsaetze_Real)
+                </div>
+            }
+            
+        </div>
+
+
+        <table class="table table-bordered table-striped table-sm">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Pause?</th>
+                    <th>ID</th>
+                    <th>LO</th>
+                    <th style="width: 150px; max-width: 150px;">Status</th>
+                    <th>Anz. Mattenpräsident</th>
+                    <th>Anz. Kampfrichter</th>
+                    <th>Anz. Punktrichter</th>
+                    <th>Summe</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var elem in _zuordnungsLogik.AlleKampfrichter.OrderBy(li => li.AnzahlEinsaetze).Select((kampfrichter, index) => new { kampfrichter, index }))
+                {
+                    <tr>
+                        <td>
+                            @(elem.index + 1)
+                        </td>
+
+                        <td>
+                            <label>
+                                <input type="checkbox" @bind="@elem.kampfrichter.IstVerfuegbar" />
+                                <span>@(elem.kampfrichter.IstVerfuegbar ? "Verfügbar" : "In Pause")</span>
+                            </label>
+                        </td>
+
+                        <td>
+                            @elem.kampfrichter.Id
+                            <br />
+                            @string.Join(", ", elem.kampfrichter.Einsatzfreigaben.Select(li => li.AsString(EnumFormat.Description)))
+                        </td>
+
+                        <td>
+                            @elem.kampfrichter.Verband
+                        </td>
+
+                        <td class="text-center">
+                            @if (elem.kampfrichter.AktuelleMatte != null && elem.kampfrichter.AktuelleRolle != null)
+                            {
+                                <span>Matte @elem.kampfrichter.AktuelleMatte</span>
+                                <br />
+                                @elem.kampfrichter.AktuelleRolle.Value.AsString(EnumFormat.Description)
+                            }
+                        </td>
+
+                        <td class="text-center">
+                            @if (elem.kampfrichter.Einsatzfreigaben.Contains(Rolle.Mattenpraesident))
+                            {
+                                @elem.kampfrichter.AnzahlEinsaetzeMattenpraesident
+                            }
+                            else
+                            {
+                                <span>--</span>
+                            }
+
+                            <br />
+                            <small>Real: @elem.kampfrichter.AnzahlEinsaetzeMattenpraesident_Real</small>
+                        </td>
+
+                        <td class="text-center">
+                            @if (elem.kampfrichter.Einsatzfreigaben.Contains(Rolle.Kampfrichter))
+                            {
+                                @elem.kampfrichter.AnzahlEinsaetzeKampfrichter
+                            }
+                            else
+                            {
+                                <span>--</span>
+                            }
+                            <br />
+                            <small>Real: @elem.kampfrichter.AnzahlEinsaetzeKampfrichter_Real</small>
+                        </td>
+
+                        <td class="text-center">
+                            @if (elem.kampfrichter.Einsatzfreigaben.Contains(Rolle.Punktrichter))
+                            {
+                                @elem.kampfrichter.AnzahlEinsaetzePunktrichter
+                            }
+                            else
+                            {
+                                <span>--</span>
+                            }
+
+                            <br />
+                            <small>Real: @elem.kampfrichter.AnzahlEinsaetzePunktrichter_Real</small>
+                        </td>
+
+                        <td class="text-center">
+                            @(elem.kampfrichter.AnzahlEinsaetze)
+                            <br />
+                            <small>Real: @(elem.kampfrichter.AnzahlEinsaetze_Real)</small>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+
+        <div style="margin-left: 10px;">
+            <h2>
+                Kämpfe (@_zuordnungsLogik.Kaempfe.Count / @_demoDaten.Begegnungen.Count)
+            </h2>
+
+            <table class="table table-bordered table-striped table-sm" style="margin-top: 32px">
+                <thead>
+                    <tr>
+                        <th class="text-end">#</th>
+                        <th class="text-center">Matte</th>
+                        <th>Rot</th>
+                        <th>Blau</th>
+                        <th class="text-center">Mattenpräsident</th>
+                        <th class="text-center">Kampfrichter</th>
+                        <th class="text-center">Punktrichter</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var bout in _zuordnungsLogik.Kaempfe)
+                    {
+                        <tr>
+                            <td class="text-end">@(bout.KampfNr)</td>
+                            <td class="text-center">@(bout.Matte)</td>
+                            <td>@bout.Rot.Verband</td>
+                            <td>@bout.Blau.Verband</td>
+
+                            @{
+                                {
+                                    var markiere = bout.Mattenpraesident != null && (bout.Mattenpraesident.Verband.Equals(bout.Rot.Verband) || bout.Mattenpraesident.Verband.Equals(bout.Blau.Verband));
+
+                                    <td class="text-center" style="@(markiere ? "background-color:rgb(184, 134, 11);" : string.Empty)">
+                                        @(bout.Mattenpraesident?.Id.ToString() ?? "?")
+                                        @if (bout.Mattenpraesident != null)
+                                        {
+                                            <span style="font-size: 0.8em; margin-left:5px">
+                                                @bout.Mattenpraesident.Verband
+                                            </span>
+                                        }
+                                    </td>
+                                }
+
+                                {
+                                    var markiere = bout.Kampfrichter != null && (bout.Kampfrichter.Verband.Equals(bout.Rot.Verband) || bout.Kampfrichter.Verband.Equals(bout.Blau.Verband));
+
+                                    <td class="text-center" style="@(markiere ? "background-color:rgb(184, 134, 11);" : string.Empty)">
+                                        @(bout.Kampfrichter?.Id.ToString() ?? "?")
+                                        @if (bout.Kampfrichter != null)
+                                        {
+                                            <span style="font-size: 0.8em; margin-left:5px">
+                                                @bout.Kampfrichter.Verband
+                                            </span>
+                                        }
+                                    </td>
+                                }
+
+                                {
+                                    var markiere = bout.Punktrichter != null && (bout.Punktrichter.Verband.Equals(bout.Rot.Verband) || bout.Punktrichter.Verband.Equals(bout.Blau.Verband));
+
+                                    <td class="text-center" style="@(markiere ? "background-color:rgb(184, 134, 11);" : string.Empty)">
+                                        @(bout.Punktrichter?.Id.ToString() ?? "?")
+                                        @if (bout.Punktrichter != null)
+                                        {
+                                            <span style="font-size: 0.8em; margin-left:5px">
+                                                @bout.Punktrichter.Verband
+                                            </span>
+                                        }
+                                    </td>
+                                }
+
+                            }
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+}
+
+
+@code {
+    private bool _isInitialized = false;
+    private int _delay = 0;
+    private List<(string FilePath, string DisplayName)> _jsonFiles = new();
+    private string? _selectedFile;
+    private string? _fehler;
+
+    private Turnier _demoDaten;
+    private ZuordnungsLogik _zuordnungsLogik;
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            LeseDateien();
+        }
+        catch { }
+
+        _selectedFile = _jsonFiles.FirstOrDefault(f => f.FilePath.Contains("2025_24104_Deutsche Meisterschaft Männer gr u. Fr. - Frauen.json"))
+            .FilePath;
+        await Lade_Daten(_selectedFile);
+        await base.OnInitializedAsync();
+    }
+
+    private int _aktuellerIndex = -1;
+
+    private async Task OnFileSelected(ChangeEventArgs e)
+    {
+        _selectedFile = e.Value?.ToString();
+        _aktuellerIndex = _jsonFiles.FindIndex(f => f.FilePath == _selectedFile);
+
+        if (!string.IsNullOrWhiteSpace(_selectedFile))
+        {
+            await Lade_Daten(_selectedFile);
+        }
+    }
+
+    private async Task VorherigeDatei()
+    {
+        if (_aktuellerIndex > 0)
+        {
+            _aktuellerIndex--;
+            _selectedFile = _jsonFiles[_aktuellerIndex].FilePath;
+            await Lade_Daten(_selectedFile);
+        }
+    }
+
+    private async Task NaechsteDatei()
+    {
+        if (_aktuellerIndex < _jsonFiles.Count - 1)
+        {
+            _aktuellerIndex++;
+            _selectedFile = _jsonFiles[_aktuellerIndex].FilePath;
+            await Lade_Daten(_selectedFile);
+        }
+    }
+
+    protected void LeseDateien()
+    {
+        string datenOrdner = TurnierDatenService.GetDatenpfad;
+
+        if (Directory.Exists(datenOrdner))
+        {
+            _jsonFiles = Directory.GetFiles(datenOrdner, "*.json")
+                .Select(file =>
+                {
+                    string fileName = Path.GetFileNameWithoutExtension(file);
+                    var parts = fileName.Split('_', 3);
+
+                    string jahr = parts.Length > 0 ? parts[0] : "";
+                    string id = parts.Length > 1 ? parts[1] : "";
+                    string bezeichnung = parts.Length > 2 ? parts[2] : "";
+
+                    string displayName = $"{jahr} - {bezeichnung}";
+
+                    return (file, displayName);
+                })
+                .ToList();
+        }
+    }
+
+    private async Task Lade_Daten(string dateiname)
+    {
+        _isInitialized = false;
+
+        _demoDaten = await TurnierDatenService.LadeAsync(dateiname);
+
+        string fileName = Path.GetFileNameWithoutExtension(dateiname);
+
+        // Zerlegen am ersten und zweiten Unterstrich
+        var parts = fileName.Split('_', 3);
+
+        string jahr = parts[0];
+        string turnierId = parts[1];
+        string bezeichnung = parts[2];
+
+        _demoDaten.Bezeichnung = bezeichnung;
+        _demoDaten.TId = Convert.ToInt32(turnierId);
+
+        var kampfrichter = _demoDaten.Begegnungen.Where(li => li.Kampfrichter != null).Select(li => new
+        {
+            Id = li.Kampfrichter.Id,
+            Verband = li.Kampfrichter.Verband ?? string.Empty,
+            Rolle = Rolle.Kampfrichter
+        });
+        var punktrichter = _demoDaten.Begegnungen.Where(li => li.Punktrichter != null).Select(li => new
+        {
+            Id = li.Punktrichter.Id,
+            Verband = li.Punktrichter.Verband ?? string.Empty,
+            Rolle = Rolle.Punktrichter
+        });
+        var mattenpraesidenten = _demoDaten.Begegnungen.Where(li => li.Mattenpraesident != null).Select(li => new
+        {
+            Id = li.Mattenpraesident.Id,
+            Verband = li.Mattenpraesident.Verband ?? string.Empty,
+            Rolle = Rolle.Mattenpraesident
+        });
+
+        HashSet<Kampfrichter> alleKampfrichter = new HashSet<Kampfrichter>();
+        foreach (var elem in kampfrichter)
+        {
+            var vorhanden = alleKampfrichter.FirstOrDefault(li => li.Id == elem.Id);
+            if (vorhanden != null)
+            {
+                vorhanden.Einsatzfreigaben.Add(elem.Rolle);
+            }
+            else
+            {
+                var neuerKampfrichter = new Kampfrichter()
+                {
+                    Id = elem.Id,
+                    Verband = elem.Verband
+                };
+                neuerKampfrichter.Einsatzfreigaben.Add(elem.Rolle);
+                alleKampfrichter.Add(neuerKampfrichter);
+            }
+        }
+
+        foreach (var elem in punktrichter)
+        {
+            var vorhanden = alleKampfrichter.FirstOrDefault(li => li.Id == elem.Id);
+            if (vorhanden != null)
+            {
+                vorhanden.Einsatzfreigaben.Add(elem.Rolle);
+            }
+            else
+            {
+                var neuerKampfrichter = new Kampfrichter()
+                {
+                    Id = elem.Id,
+                    Verband = elem.Verband
+                };
+                neuerKampfrichter.Einsatzfreigaben.Add(elem.Rolle);
+                alleKampfrichter.Add(neuerKampfrichter);
+            }
+        }
+
+        foreach (var elem in mattenpraesidenten)
+        {
+            var vorhanden = alleKampfrichter.FirstOrDefault(li => li.Id == elem.Id);
+            if (vorhanden != null)
+            {
+                vorhanden.Einsatzfreigaben.Add(elem.Rolle);
+            }
+            else
+            {
+                var neuerKampfrichter = new Kampfrichter()
+                {
+                    Id = elem.Id,
+                    Verband = elem.Verband
+                };
+                neuerKampfrichter.Einsatzfreigaben.Add(elem.Rolle);
+                alleKampfrichter.Add(neuerKampfrichter);
+            }
+        }
+
+        _zuordnungsLogik = new ZuordnungsLogik(alleKampfrichter, new ZuordnungsRegeln());
+
+        foreach (var elem in _zuordnungsLogik.AlleKampfrichter)
+        {
+            elem.AnzahlEinsaetzeMattenpraesident_Real = _demoDaten.Begegnungen.Count(li => li.Mattenpraesident != null && li.Mattenpraesident.Id == elem.Id);
+            elem.AnzahlEinsaetzeKampfrichter_Real = _demoDaten.Begegnungen.Count(li => li.Kampfrichter != null && li.Kampfrichter.Id == elem.Id);
+            elem.AnzahlEinsaetzePunktrichter_Real = _demoDaten.Begegnungen.Count(li => li.Punktrichter != null && li.Punktrichter.Id == elem.Id);
+        }
+
+        await StarteSimulation(0);
+        _isInitialized = true;
+    }
+
+    protected async Task StarteSimulation(int delay)
+    {
+        _fehler = string.Empty;
+        try
+        {
+
+            foreach (var demoKampf in _demoDaten.Begegnungen.OrderBy(li => li.KampfNr))
+            {
+                var kampf = _zuordnungsLogik.AddKampf(demoKampf);
+
+                if (delay > 0)
+                {
+                    StateHasChanged();
+                    await Task.Delay(150);
+                }
+
+                _zuordnungsLogik.KampfrichterZuteilen(kampf);
+
+
+                if (delay > 0)
+                {
+                    StateHasChanged();
+                    await Task.Delay(150);
+                }
+
+                _zuordnungsLogik.KampfAbschliessen(kampf);
+
+                if (delay > 0)
+                {
+                    StateHasChanged();
+                    await Task.Delay(delay);
+                }
+            }
+
+            //_zuordnungsLogik.AlleKampfrichter = _zuordnungsLogik.AlleKampfrichter.OrderBy(li => li.AnzahlEinsaetze);
+        }
+        catch (LogikException ex)
+        {
+            _fehler += ex.Message;
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            _fehler += ex.Message + ex.StackTrace;
+            StateHasChanged();
+        }
+    }
+}
